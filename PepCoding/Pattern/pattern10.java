@@ -26,10 +26,10 @@ public class pattern10 {
                 nst--;
             }
             if(i<n){
-                val-=1;
+                val=val-1;
             }
             else{
-                val-=2;
+                val=val-2;
             }
             for(int j = 1;j<=nst;j++){
                 System.out.print(val+"\t");
